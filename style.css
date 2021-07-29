@@ -1,0 +1,389 @@
+@font-face {
+	src: url(assets/fonts/Atkinson-Hyperlegible-Bold-102a.woff2);
+	font-family: font1bold;
+}
+
+@font-face {
+	src: url(assets/fonts/Atkinson-Hyperlegible-Regular-102a.woff2);
+	font-family: font1;
+}
+
+@font-face {
+	src: url(assets/fonts/SpaceMono-Regular.ttf);
+	font-family: font2;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('assets/fonts/icomoon.eot?fzb2fj');
+  src:  url('assets/fonts/icomoon.eot?fzb2fj#iefix') format('embedded-opentype'),
+    url('assets/fonts/icomoon.ttf?fzb2fj') format('truetype'),
+    url('assets/fonts/icomoon.woff?fzb2fj') format('woff'),
+    url('assets/fonts/icomoon-webfont.woff2') format('woff2'),
+    url('assets/fonts/icomoon-webfont.woff') format('woff'),
+    url('assets/fonts/icomoon.svg?fzb2fj#icomoon') format('svg');
+
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+body, html {
+	background-color: #110F15;
+}
+
+.hidden {
+	display: none;
+}
+
+.navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 2.5rem;
+}
+
+.abcd {
+	/*	background: rgba(17, 15, 21, 0.9) ;*/
+	background: linear-gradient(rgba(17, 15, 21, 0.4), rgba(17, 15, 21, 0.3)) !important;
+	z-index: 2;
+    backdrop-filter: blur(70px);
+    font-family: font1;
+	font-size: 1.1rem;
+}
+
+.navbar {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	
+}
+
+.navbar-brand {
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.container-fluid {
+	font-family: font1;
+	font-size: 1rem;
+	color: rgba(255, 255, 255, 0.87);
+	max-width: 1260px;
+}
+
+.name {
+	font-family: font1;
+	font-size: 1.35rem;
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.heading {
+	font-family: font1bold;
+	font-size: 2.50rem;
+	color: rgba(255, 255, 255, 0.87);
+	line-height: 1.6;
+}
+
+.a1 {
+	float: left;
+	max-width: 50%;
+}
+
+.a2 {
+	float: right;
+	max-width: 50%;
+}
+
+.xyz {
+	display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 100px;
+  height: calc(100vh - 100px);
+  align-items: center;
+  float: left;
+}
+
+.section2 {
+	 float: left;
+	 width: 100%;
+}
+
+.section3 {
+	margin-top: 20vh;
+	float: left;
+	 width: 100%;
+}
+
+.footer {
+	 float: left;
+	 width: 100%;
+	 padding-bottom: 80px;
+}
+
+.resume {
+	background-image: linear-gradient(20deg, #110F15 10%, #262528  100%)
+}
+.button-outside{
+	float: left;
+	margin-top: 30px;
+	padding: 1px;
+	background: linear-gradient(20deg, #110f15 20%, #868686 120%);
+	border-radius: 50px;
+	transition: all 450ms , background 0ms , transform 150ms;
+}
+.button-outside:hover{
+	transform: translateY(-1px);
+	background: linear-gradient(20deg, #110F15 10%, #262528  100%);
+	box-shadow: 10px 20px 40px -15px #000000 , -10px -20px 40px -15px #ffffff40;
+}
+.qwerty {
+ 	  margin-top: 0px;
+    padding: 20px 40px;
+    text-align: center;
+    border-width: 0px;
+    color: #ffffff;            
+    border-radius: 50px;
+    border-width: 0px;
+    border-style: solid;
+    /*border-image: linear-gradient(20deg, rgba(103,81,81,0), rgba(134,134,134,1)) 1;*/
+
+}
+
+.resume:hover {
+ 	background-image: linear-gradient(20deg, #110F15 10%, #262528  100%)
+}
+
+.sectionmaster {
+	font-family: "Space Mono";
+	font-size: 5rem;
+	font-weight: 400;
+}
+
+.detail {
+	font-family: font1;
+	font-size: 1.2rem;
+	color: rgba(255, 255, 255, 0.87);
+	line-height: 1.6;
+	justify-content: center;
+}
+
+.beechme {
+	text-align: center;
+}
+
+.case-study {
+	margin-top: 60px;
+}
+.slider_item_wrapper {
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	float: left;
+	display: flex;
+}
+
+.slider_item_wrapper1 {
+	width: 100%;
+	height: 100%;
+	border-radius: 4px;
+	float: left;
+}
+
+.card1 {
+	background: linear-gradient(140deg, #0C6941 -40%, #649C6B  140%);
+}
+
+.card2 {
+	background: linear-gradient(140deg, #2D3079 -40%, #652D79  140%);
+}
+
+.card3 {
+	background: linear-gradient(140deg, #0C6941 -40%, #649C6B  140%);
+}
+
+.card4 {
+	background: linear-gradient(140deg, #2D3079 -40%, #652D79  140%);
+}
+
+.card5 {
+	background: linear-gradient(140deg, #2D3079 -40%, #652D79  140%);
+}
+
+
+
+
+
+.card11 {
+	background: linear-gradient(140deg, #006167 -40%, #03292C  140%);
+}
+
+.card12 {
+	background: linear-gradient(140deg, #0C6941 -40%, #649C6B  140%);
+}
+
+
+.slider .slick-arrow, .slider1 .slick-arrow {
+    position: absolute;
+    bottom: 5%;
+    z-index: 1;
+    width: 3.8rem;
+    height: 3.8rem;
+    transform: translateY(-50%);
+    padding: 0;
+    overflow: hidden;
+ 		background: transparent;
+    font-size: 0em;
+    /*background: linear-gradient(20deg, rgba(255,255,255,0.2), rgba(255,255,255,0.8));*/
+    border-style: none;   
+    border-radius: 40px;
+    transition: 0.25s;
+}
+    .slider .slick-arrow:hover, .slider1 .slick-arrow:hover {
+      box-shadow: 10px 20px 40px -15px #000000 , -10px -20px 40px -15px #ffffff40;
+    }
+
+    
+
+  .slider .slick-prev, .slider1 .slick-prev {
+    left: 3rem;
+    background-image: url(assets/images/leftarrow.svg);
+  }
+
+  .slider .slick-next, .slider1 .slick-next {
+    left: 7.8rem;
+    background-image: url(assets/images/rightarrow.svg);
+  }
+
+.slider__item {
+  /*position: relative;*/
+  /*height: 70vh;*/
+}
+  .slider__item img {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    object-fit: cover;
+    float: right;
+  }
+
+.slider__counter, .slider1__counter {
+	font-family: font1;
+  position: absolute;
+  top: 3rem;
+  right: 3rem;
+  z-index: 1;
+  font-size: 1.1em;
+  color: #fff;
+  pointer-events: none;
+}
+
+
+
+.what {
+	padding-top: 3rem;
+	padding-left: 3rem;
+	max-width: 50%;
+}
+
+.testimonial {
+	padding-top: 3rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+}
+
+.tag {
+	font-family: font1;
+	font-size: 1.1em;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.study {
+	font-family: font1bold;
+	font-size: 2.50rem;
+	color: rgba(255, 255, 255, 0.87);
+	line-height: 1.5;
+}
+
+.icon-notion-logo , .icon-Behance , .icon-Dribbble , .icon-Gmail , .icon-Instagram , .icon-Linkedin , .icon-Phone {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1.6;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-Behance:before {
+  content: "\42";
+  color: #fff;
+}
+.icon-Dribbble:before {
+  content: "\44";
+  color: #fff;
+}
+.icon-Gmail:before {
+  content: "\47";
+  color: #fff;
+}
+.icon-Instagram:before {
+  content: "\49";
+  color: #fff;
+}
+.icon-Linkedin:before {
+  content: "\4c";
+  color: #fff;
+}
+.icon-Phone:before {
+  content: "\50";
+  color: #fff;
+}
+.icon-notion-logo:before {
+  content: "\4e";
+  color: #fff;
+}
+
+.person-image {
+	width: 4.5em;
+	height: 4.5em;
+	background: url(assets/images/shubham.png);
+	border-radius: 100px;
+	background-size: cover;
+}
+
+.who {
+	align-items: center;
+	display: flex;
+}
+
+.naam {
+	font-family: font1;
+	font-size: 1.4em;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: 1;
+}
+
+.position {
+	font-family: font1;
+	font-size: 1em;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: 1;
+}
+
+.comment {
+	margin-top: 30px;
+	padding-left: 10px;
+}
+
+.social-links {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+
+@media only screen and (max-width: 1080px) {
+
+}
