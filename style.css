@@ -348,8 +348,17 @@ body, html {
 .person-image {
 	width: 4.5em;
 	height: 4.5em;
-	background: url(assets/images/shubham.png);
 	border-radius: 100px;
+	background-size: cover;
+}
+
+.person1 {
+	background: url(assets/images/manishanker_sharma.png);
+	background-size: cover;
+}
+
+.person1 {
+	background: url(assets/images/sanjay_yadav.png);
 	background-size: cover;
 }
 
