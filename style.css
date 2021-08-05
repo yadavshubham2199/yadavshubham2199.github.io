@@ -45,8 +45,8 @@ body, html {
 	/*	background: rgba(17, 15, 21, 0.9) ;*/
 	background: linear-gradient(rgba(17, 15, 21, 0.4), rgba(17, 15, 21, 0.3)) !important;
 	z-index: 2;
-    backdrop-filter: blur(70px);
-    font-family: font1;
+  backdrop-filter: blur(70px);
+  font-family: font1;
 	font-size: 1.1rem;
 }
 
@@ -78,6 +78,11 @@ body, html {
 	font-size: 2.50rem;
 	color: rgba(255, 255, 255, 0.87);
 	line-height: 1.6;
+}
+
+.photo {
+	width: 431px;
+	height: 400px;
 }
 
 .a1 {
@@ -352,6 +357,12 @@ body, html {
 	background-size: cover;
 }
 
+.person-details {
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
 .person1 {
 	background: url(assets/images/manishanker_sharma.png);
 	background-size: cover;
@@ -379,7 +390,9 @@ body, html {
 	font-size: 1em;
   color: rgba(255, 255, 255, 0.87);
   line-height: 1;
+  margin: 0;
 }
+	
 
 .comment {
 	margin-top: 30px;
@@ -393,6 +406,221 @@ body, html {
 
 
 
-@media only screen and (max-width: 1080px) {
+@media only screen and (max-width: 425px) {
+
+.container-fluid {
+	font-family: font1;
+	font-size: 1rem;
+	color: rgba(255, 255, 255, 0.87);
+	width: 100%;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.navbar-dark .navbar-toggler {
+    color: rgba(255,255,255,.55);
+    border-color: rgba(255,255,255,.0);
+    margin-right: 20px;
+}
+
+.sayhi {
+	margin-left: 20px;
+}
+
+.photo {
+	width: 323px;
+	height: 300px;
+}
+
+.xyz {
+	/*width: 100%;*/
+  padding-top: 120px;
+  align-items: center;
+  text-align: center;
+  padding-left: 20px;
+  
+  /*float: left;*/
+}
+
+.social-links {
+	display: block;
+	justify-content: center;
+}
+
+.a1 {
+	text-align: left;
+	margin-left: 10px;
+	max-width: 100%;
+}
+
+.a2 {
+	float: left;
+	width: 100%;
+	padding-top: 70px;
+}
+
+.name {
+	font-family: font1;
+	font-size: 1.2rem;
+	color: rgba(255, 255, 255, 0.87);
+}
+
+.heading {
+	font-family: font1bold;
+	font-size: 1.8rem;
+	color: rgba(255, 255, 255, 0.87);
+	line-height: 1.6;
+}
+
+.section2 {
+	 float: left;
+	 width: 100%;
+	 padding-top: 150px;
+}
+
+.sectionmaster {
+	font-family: "Space Mono";
+	font-size: 3.5rem;
+	font-weight: 400;
+}
+
+.detail {
+	font-family: font1;
+	font-size: 1.2rem;
+	color: rgba(255, 255, 255, 0.87);
+	line-height: 1.6;
+	justify-content: center;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.slider_item_wrapper {
+	width: 100%;
+	height: 100%;
+	border-radius: 0px;
+	float: left;
+	display: block;
+}
+
+.slider_item_wrapper1 {
+	width: 100%;
+	height: 100%;
+	border-radius: 0px;
+	float: left;
+}
+
+.what {
+	padding-top: 1.5rem;
+	padding-left: 1.5rem;
+	max-width: 100%;
+}
+
+.slider__counter, .slider1__counter {
+	font-family: font1;
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 1;
+  font-size: 1em;
+  color: #fff;
+  pointer-events: none;
+}
+
+.study {
+	font-family: font1bold;
+	font-size: 2rem;
+	color: rgba(255, 255, 255, 0.87);
+	line-height: 1.5;
+	width: 100%;
+}
+
+.tag {
+	font-family: font1;
+	font-size: 1em;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.slider .slick-arrow, .slider1 .slick-arrow {
+    position: absolute;
+    bottom: 3%;
+    z-index: 1;
+    width: 3rem;
+    height: 3rem;
+    transform: translateY(-50%);
+    padding: 0;
+    overflow: hidden;
+ 		background: transparent;
+    font-size: 0em;
+    /*background: linear-gradient(20deg, rgba(255,255,255,0.2), rgba(255,255,255,0.8));*/
+    border-style: none;   
+    border-radius: 40px;
+    transition: 0.25s;
+}
+    .slider .slick-arrow:hover, .slider1 .slick-arrow:hover {
+      box-shadow: 10px 20px 40px -15px #000000 , -10px -20px 40px -15px #ffffff40;
+    }
+
+    
+
+  .slider .slick-prev, .slider1 .slick-prev {
+    left: 2rem;
+    background-image: url(assets/images/leftarrow.svg);
+  }
+
+  .slider .slick-next, .slider1 .slick-next {
+    left: 6rem;
+    background-image: url(assets/images/rightarrow.svg);
+  }
+
+.section3 {
+	margin-top: 10vh;
+	float: left;
+	 width: 100%;
+}
+
+.testimonial {
+	padding-top: 1.5rem;
+	padding-left: 1.5rem;
+	padding-right: 1.5rem;
+}
+
+.person-image {
+	width: 3.2em;
+	height: 3.2em;
+	border-radius: 100px;
+	background-size: cover;
+}
+
+.naam {
+	font-family: font1;
+	font-size: 1.2em;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: 1;
+}
+
+.position {
+	font-family: font1;
+	font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.87);
+  line-height: 1;
+  margin: 0;
+}
+
+.person-details {
+	display: flex;
+	flex-direction: column;
+	padding-left: 10px;
+}
+
+.comment {
+	margin-top: 30px;
+	padding-left: 0px;
+}
+
+
+
+
+
+
 
 }
