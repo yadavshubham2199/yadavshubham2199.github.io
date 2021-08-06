@@ -408,6 +408,11 @@ body, html {
 
 @media only screen and (max-width: 425px) {
 
+.navbar {
+    padding-top: 0.2em;
+    padding-bottom: 0.2em;
+}
+	
 .container-fluid {
 	font-family: font1;
 	font-size: 1rem;
