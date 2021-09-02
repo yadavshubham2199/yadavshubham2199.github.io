@@ -43,7 +43,7 @@ body, html {
 
 .abcd {
 	/*	background: rgba(17, 15, 21, 0.9) ;*/
-	background: linear-gradient(rgba(17, 15, 21, 0.4), rgba(17, 15, 21, 0.3)) !important;
+	background: linear-gradient(rgba(17, 15, 21, 1.0), rgba(17, 15, 21, 1.0)) !important;
 	z-index: 2;
   backdrop-filter: blur(70px);
   font-family: font1;
